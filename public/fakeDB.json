@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "category": "Action",
+      "name": "Spider-Man: No Way Home",
+      "seller": "Addidas",
+      "price": 99,
+      "date": 2021,
+      "ratings": 8.5,
+      "derector": "Jon Watts",
+      "img": "https://img.yts.mx/assets/images/movies/spider_man_no_way_home_2021/medium-cover.jpg"
+    }
+  ]
