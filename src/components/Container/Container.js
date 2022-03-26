@@ -38,8 +38,8 @@ const Container = () => {
           ))}
         </div>
       </div>
-      <div className="md:col-span-1">
-        <div className="h-screen sticky top-0 border-2 border-green-200 rounded shadow">
+      <div className="md:col-span-1 order-first md:order-last">
+        <div className="md:h-screen sticky top-0 border-2 border-green-200 rounded shadow">
           <h2 className="text-center font-bold text-2xl border-2 border-green-600 rounded">
             Your List
           </h2>

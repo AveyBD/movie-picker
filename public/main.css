@@ -475,6 +475,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-first {
+  order: -9999;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -674,12 +686,28 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-last {
+    order: 9999;
+  }
+
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
   }
 
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:grid-cols-4 {
