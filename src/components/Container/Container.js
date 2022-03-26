@@ -4,7 +4,7 @@ import Sidearea from "../Sidearea/Sidearea";
 
 const Container = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 md:px-10">
+    <div className="grid grid-cols-1 md:grid-cols-4 md:px-10 gap-5">
       <div className="md:col-span-3">
         <Movies></Movies>
       </div>
