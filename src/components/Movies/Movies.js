@@ -9,6 +9,9 @@ const Movies = () => {
         .then(res=>res.json())
         .then(data=>setMovies(data))
     },[])
+    const addToList = () => {
+        console.log("Clicked");
+    }
     return (
         <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
             {/* seding data to movie components */}
@@ -16,6 +19,7 @@ const Movies = () => {
             movies.map(movie=><Movie 
                 key={movie.id}
                 movie={movie}
+                addToList = {addToList}
                 ></Movie>)
         }
         </div>

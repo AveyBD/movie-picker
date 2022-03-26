@@ -2,8 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
-const Movie = ({ movie }) => {
-  console.log(movie);
+const Movie = ({ movie ,addToList }) => {
   const { id, category, name, duration, price, date, ratings, director, img } =
     movie;
   return (
@@ -31,7 +30,7 @@ const Movie = ({ movie }) => {
         <h2>
           <span className="font-bold">Price</span>: ${price}
         </h2>
-        <button className="bg-green-500 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded w-full">
+        <button onClick={addToList} className="bg-green-500 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded w-full">
           <span className="pr-2">Add to List</span>
           <FontAwesomeIcon icon={faList} />
         </button>
