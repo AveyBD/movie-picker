@@ -33,10 +33,23 @@ const Container = () => {
             Your List
           </h2>
           <div>
-            {wish.map(movie=>(<MovieList key={movie.id} movie={movie}></MovieList>))}
+            {wish.map((movie) => (
+              <MovieList key={movie.id} movie={movie}></MovieList>
+            ))}
           </div>
-          <button className="px-5 py-2 bg-green-500 rounded mt-5 w-full text-white">Choose One</button>
-          <button className="px-5 py-2 bg-red-600 rounded mt-2 w-full text-white" onClick={()=> {setWish([])}}>Reset</button>
+          <div className="px-2">
+            <button className="px-5 py-2 bg-green-500 rounded mt-5 w-full text-white">
+              Choose One
+            </button>
+            <button
+              className="px-5 py-2 bg-red-600 rounded mt-2 w-full text-white"
+              onClick={() => {
+                setWish([]);
+              }}
+            >
+              Reset
+            </button>
+          </div>
         </div>
       </div>
     </div>
