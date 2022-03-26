@@ -22,6 +22,12 @@ const Container = () => {
     setWish(newWish);
     console.log(wish);
   };
+
+  // function for selected movie 
+  const movieToWatch = () => {
+    const finalMovie = wish[Math.floor(Math.random()*wish.length)]
+    console.log(finalMovie);
+  }
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 md:px-10 gap-5">
       <div className="md:col-span-3">
@@ -42,7 +48,7 @@ const Container = () => {
             ))}
           </div>
           <div className="px-2">
-            <button className="px-5 py-2 bg-green-500 rounded mt-5 w-full text-white">
+            <button onClick={movieToWatch} className="px-5 py-2 bg-green-500 rounded mt-5 w-full text-white">
               Choose One
             </button>
             <button
