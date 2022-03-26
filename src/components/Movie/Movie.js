@@ -9,7 +9,7 @@ const Movie = ({ movie ,addToList }) => {
     <div className="rounded border-2 border-green-200 shadow-lg px-5 h-200">
       <div>
         <img
-          className="p-2 rounded border-2 shadow mt-2"
+          className="p-2 rounded border-2 shadow mt-2 mx-auto"
           src={img}
           alt={name}
         />
