@@ -27,6 +27,7 @@ const Container = () => {
   const movieToWatch = () => {
     const finalMovie = wish[Math.floor(Math.random()*wish.length)]
     console.log(finalMovie);
+    alert(`Movie For you ${finalMovie.name} Directed by ${finalMovie.director}. Duration: ${finalMovie.duration}`);
   }
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 md:px-10 gap-5">
