@@ -7,7 +7,7 @@
     "price": 99,
     "date": 2021,
     "ratings": 8.5,
-    "derector": "Jon Watts",
+    "director": "Jon Watts",
     "img": "https://img.yts.mx/assets/images/movies/spider_man_no_way_home_2021/medium-cover.jpg"
   },
   {
@@ -18,7 +18,7 @@
     "price": 309,
     "date": 2008,
     "ratings": 7.9,
-    "derector": "Jon Favreau",
+    "director": "Jon Favreau",
     "img": "https://img.yts.mx/assets/images/movies/Iron_Man_2008/medium-cover.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "price": 780,
     "date": 1999,
     "ratings": 8.7,
-    "derector": "Lana Wachowski",
+    "director": "Lana Wachowski",
     "img": "https://img.yts.mx/assets/images/movies/The_Matrix_1999/medium-cover.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "price": 723,
     "date": 2013,
     "ratings": 6.0,
-    "derector": "Joshua Michael Stern",
+    "director": "Joshua Michael Stern",
     "img": "https://img.yts.mx/assets/images/movies/JOBS_2013/medium-cover.jpg"
   },
   {
@@ -51,7 +51,7 @@
     "price": 723,
     "date": 2016,
     "ratings": 7.2,
-    "derector": "John Lee Hancock",
+    "director": "John Lee Hancock",
     "img": "https://img.yts.mx/assets/images/movies/the_founder_2016/medium-cover.jpg"
   },
   {
@@ -62,7 +62,7 @@
     "price": 791,
     "date": 2016,
     "ratings": 7.5,
-    "derector": "Scott Derrickson",
+    "director": "Scott Derrickson",
     "img": "https://img.yts.mx/assets/images/movies/doctor_strange_2016/medium-cover.jpg"
   },
   {
@@ -73,7 +73,7 @@
     "price": 961,
     "date": 1955,
     "ratings": 8.4,
-    "derector": "Satyajit Ray",
+    "director": "Satyajit Ray",
     "img": "https://img.yts.mx/assets/images/movies/pather_panchali_1955/medium-cover.jpg"
   },
   {
@@ -84,7 +84,7 @@
     "price": 99,
     "date": 1959,
     "ratings": 8.5,
-    "derector": "Satyajit Ray",
+    "director": "Satyajit Ray",
     "img": "https://img.yts.mx/assets/images/movies/the_world_of_apu_1959/medium-cover.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "price": 671,
     "date": 1966,
     "ratings": 8.3,
-    "derector": "Satyajit Ray",
+    "director": "Satyajit Ray",
     "img": "https://img.yts.mx/assets/images/movies/nayak_the_hero_1966/medium-cover.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "price": 894,
     "date": 1973,
     "ratings": 7.3,
-    "derector": "Ritwik Ghatak",
+    "director": "Ritwik Ghatak",
     "img": "https://img.yts.mx/assets/images/movies/a_river_called_titas_1973/medium-cover.jpg"
   },
   {
@@ -117,7 +117,7 @@
     "price": 752,
     "date": 1975,
     "ratings": 8.1,
-    "derector": "Ramesh Sippy",
+    "director": "Ramesh Sippy",
     "img": "https://img.yts.mx/assets/images/movies/sholay_1975/medium-cover.jpg"
   },
   {
@@ -128,7 +128,7 @@
     "price": 894,
     "date": 2009,
     "ratings": 8.5,
-    "derector": "Rajkumar Hirani",
+    "director": "Rajkumar Hirani",
     "img": "https://img.yts.mx/assets/images/movies/3_idiots_2009/medium-cover.jpg"
   }
 ]
