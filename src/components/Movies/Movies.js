@@ -10,7 +10,7 @@ const Movies = () => {
         .then(data=>setMovies(data))
     },[])
     return (
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
             {/* seding data to movie components */}
          {
             movies.map(movie=><Movie 
