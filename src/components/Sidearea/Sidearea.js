@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sidearea = () => {
+const Sidearea = ({wishList}) => {
     return (
         <div>
             <div className="h-screen sticky top-0 border-2 border-green-200 rounded shadow">
