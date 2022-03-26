@@ -9,8 +9,8 @@ const Movies = () => {
         .then(res=>res.json())
         .then(data=>setMovies(data))
     },[])
-    const addToList = () => {
-        console.log("Clicked");
+    const addToList = (movie) => {
+        console.log(movie);
     }
     return (
         <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>

@@ -30,7 +30,7 @@ const Movie = ({ movie ,addToList }) => {
         <h2>
           <span className="font-bold">Price</span>: ${price}
         </h2>
-        <button onClick={addToList} className="bg-green-500 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded w-full">
+        <button onClick={()=>addToList(movie)} className="bg-green-500 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded w-full">
           <span className="pr-2">Add to List</span>
           <FontAwesomeIcon icon={faList} />
         </button>
