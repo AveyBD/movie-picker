@@ -15,6 +15,10 @@ const Container = () => {
 
   const addToList = (movie) => {
     const newWish = [...wish, movie];
+    if (newWish.length > 4) {
+      alert("You can not select more than 4 Movie")
+      return
+  }
     setWish(newWish);
     console.log(wish);
   };
