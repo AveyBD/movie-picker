@@ -17,7 +17,11 @@ const Container = () => {
   const addToList = (movie) => {
     const newWish = [...wish, movie];
     if (newWish.length > 4) {
-      alert("You can not select more than 4 Movie");
+      Swal.fire({
+        icon: "error",
+        title: "Limit Crossed",
+        text: "Your Can't Select More Than Four Movie!",
+      });
       return;
     }
     setWish(newWish);
@@ -68,6 +72,12 @@ const Container = () => {
               className="px-5 py-2 bg-red-600 rounded mt-2 w-full text-white"
               onClick={() => {
                 setWish([]);
+                Swal.fire({
+                  icon: "success",
+                  title: "Wishlist Clear",
+                  showConfirmButton: false,
+                  timer: 1300,
+                });
               }}
             >
               Reset
